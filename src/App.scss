@@ -1,5 +1,20 @@
+@use './styles/fonts.scss';
+
 .App{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  height: 100vh;
+}
+
+h1,h2,h3,h4,h5,h6,a{
+  font-family: fonts.$title-font;
+}
+
+p{
+  font-family: fonts.$text-font;
+}
+
+a{
+  text-decoration: none;
 }
