@@ -5,14 +5,11 @@
   max-width: 100%;
   overflow-x: hidden;
   height: 100vh;
+  font-family: fonts.$text-font;
 }
 
 h1,h2,h3,h4,h5,h6,a{
   font-family: fonts.$title-font;
-}
-
-p{
-  font-family: fonts.$text-font;
 }
 
 a{
